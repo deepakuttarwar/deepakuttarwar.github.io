@@ -390,6 +390,37 @@ font-size:18px;
 line-height:1.8;
 color:#e2e8f0;
 }
+  .accordion-card{
+background:#1e293b;
+border-radius:18px;
+margin-bottom:20px;
+overflow:hidden;
+}
+
+.accordion-btn{
+width:100%;
+background:none;
+border:none;
+padding:28px;
+cursor:pointer;
+text-align:left;
+font-size:26px;
+font-weight:600;
+color:#60a5fa;
+}
+
+.accordion-content{
+display:none;
+padding:0 28px 28px;
+color:#e2e8f0;
+line-height:1.8;
+}
+
+.accordion-content h4{
+color:#60a5fa;
+margin-top:20px;
+margin-bottom:10px;
+}
 </style>
 
 </head>
@@ -756,5 +787,32 @@ Led portfolio governance, PMO transformation, resource planning, delivery metric
 </div>
 
 </section>
+  <script>
+
+const accordions = document.querySelectorAll(".accordion-btn");
+
+accordions.forEach(button => {
+
+button.addEventListener("click", () => {
+
+const content = button.nextElementSibling;
+
+if(content.style.display === "block"){
+
+content.style.display = "none";
+
+} else {
+
+content.style.display = "block";
+
+}
+
+});
+
+});
+
+</script>
+
+</body>
 </body>
 </html>
