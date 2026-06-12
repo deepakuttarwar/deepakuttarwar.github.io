@@ -216,7 +216,7 @@ margin:auto;
 
 .expertise-card{
 background:#1e293b;
-padding:40px;
+padding:30px;
 border-radius:18px;
 margin-bottom:10px;
 }
@@ -241,6 +241,30 @@ margin-top:15px;
 }
   .full-width{
 grid-column:1 / span 2;
+}
+
+.expertise-tags{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+margin-top:18px;
+}
+
+.expertise-tags span{
+background:#0f172a;
+padding:10px 16px;
+border-radius:24px;
+font-size:15px;
+font-weight:500;
+color:#cbd5e1;
+border:1px solid rgba(96,165,250,0.25);
+transition:all .3s ease;
+}
+
+.expertise-tags span:hover{
+border-color:#60a5fa;
+color:white;
+transform:translateY(-2px);
 }
 </style>
 
@@ -393,44 +417,69 @@ Core Expertise
 <div class="expertise-card">
 <h3>Delivery Leadership</h3>
 
-<p>
-Program Management • Portfolio Management • PMO Leadership • Delivery Governance • Delivery Excellence • Resource & Capacity Planning
-</p>
+<div class="expertise-tags">
+<span>Program Management</span>
+<span>Portfolio Management</span>
+<span>PMO Leadership</span>
+<span>Delivery Governance</span>
+<span>Delivery Excellence</span>
+<span>Capacity Planning</span>
+</div>
 
 </div>
 
 <div class="expertise-card">
 <h3>Financial & Business Governance</h3>
 
-<p>
-Financial Governance • P&L Ownership • Budget Management • Forecasting & Planning • Value Realization • Executive Governance Reporting
-</p>
+<div class="expertise-tags">
+<span>Financial Governance</span>
+<span>P&L Ownership</span>
+<span>Budget Management</span>
+<span>Forecasting</span>
+<span>Value Realization</span>
+<span>Executive Reporting</span>
+</div>
 
 </div>
 <div class="expertise-card">
 <h3>Transformation & Modernization</h3>
 
-<p>
-Digital Transformation • AI/ML Transformation • Cloud Modernization • Data Platform Modernization • Strategic Planning • Operational Excellence
-</p>
+<div class="expertise-tags">
+<span>Digital Transformation</span>
+<span>AI/ML Transformation</span>
+<span>Cloud Modernization</span>
+<span>Data Platform Modernization</span>
+<span>Strategic Planning</span>
+<span>Operational Excellence</span>
+</div>
 
 </div>
 
 <div class="expertise-card">
 <h3>Executive Leadership</h3>
 
-<p>
-Executive Stakeholder Management • Customer Success • Client Engagement • Team Building • Talent Development • Mentoring & Coaching
-</p>
+<div class="expertise-tags">
+<span>Stakeholder Management</span>
+<span>Customer Success</span>
+<span>Client Engagement</span>
+<span>Team Building</span>
+<span>Talent Development</span>
+<span>Mentoring & Coaching</span>
+</div>
 
 </div>
 
 <div class="expertise-card full-width">
-<h3>Technology & Engineering Strategy/h3>
+<h3>Technology & Engineering Strategy</h3>
 
-<p>
-Data Engineering & Analytics • Enterprise Data Platforms • Cloud Platforms • AI/ML Enablement • DevOps • Agile, Scrum & SAFe
-</p>
+<div class="expertise-tags">
+<span>Data Engineering</span>
+<span>Enterprise Data Platforms</span>
+<span>Cloud Platforms</span>
+<span>AI/ML Enablement</span>
+<span>DevOps</span>
+<span>Agile & SAFe</span>
+</div>
 
 </div>
     
