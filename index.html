@@ -85,7 +85,46 @@ color:white;
 background:#1e293b;
 color:white;
 }
+.snapshot{
+padding:100px 80px;
+background:#111827;
+}
 
+.section-title{
+text-align:center;
+font-size:48px;
+margin-bottom:60px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:#1e293b;
+padding:35px;
+width:220px;
+border-radius:15px;
+text-align:center;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+font-size:40px;
+color:#60a5fa;
+margin-bottom:10px;
+}
+
+.card p{
+color:#cbd5e1;
+}
 </style>
 
 </head>
@@ -131,6 +170,36 @@ LinkedIn
 </div>
 
 </div>
+<section class="snapshot">
 
+<h2 class="section-title">
+Leadership Snapshot
+</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>16+</h3>
+<p>Years Experience</p>
+</div>
+
+<div class="card">
+<h3>70+</h3>
+<p>Projects Delivered</p>
+</div>
+
+<div class="card">
+<h3>$8M–$12M</h3>
+<p>Portfolio Value</p>
+</div>
+
+<div class="card">
+<h3>Global</h3>
+<p>Engineering Teams</p>
+</div>
+
+</div>
+
+</section>
 </body>
 </html>
